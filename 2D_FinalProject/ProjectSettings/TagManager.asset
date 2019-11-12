@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - grounded
-  - enemy
   - Enemy
+  - Saw
   layers:
   - Default
   - TransparentFX
