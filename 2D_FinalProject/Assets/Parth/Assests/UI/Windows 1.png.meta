@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 59ba6ca0a15f84c479d698423aa82d42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8267954141242544321
+    second: Windows 1_0
+  - first:
+      213: 7749493167721076042
+    second: Windows 1_1
+  - first:
+      213: 8518977486341662849
+    second: Windows 1_2
+  - first:
+      213: 6614390971695020594
+    second: Windows 1_3
+  - first:
+      213: 4153112213972605809
+    second: Windows 1_4
+  - first:
+      213: 6697853098742370552
+    second: Windows 1_5
+  - first:
+      213: 4988101239717469047
+    second: Windows 1_6
+  - first:
+      213: -7715948317722044518
+    second: Windows 1_7
+  - first:
+      213: -782154737870384320
+    second: Windows 1_8
+  - first:
+      213: 4334664655964608822
+    second: Windows 1_9
+  - first:
+      213: -8841597343393553692
+    second: Windows 1_10
+  - first:
+      213: -7825421072977531084
+    second: Windows 1_11
+  - first:
+      213: -7694477194369875547
+    second: Windows 1_12
+  - first:
+      213: 1031765616944489383
+    second: Windows 1_13
+  - first:
+      213: -8990954048526552368
+    second: Windows 1_14
+  - first:
+      213: -3741061441246861741
+    second: Windows 1_15
+  - first:
+      213: 5822760049522205420
+    second: Windows 1_16
+  - first:
+      213: -3986575704914558379
+    second: Windows 1_17
+  - first:
+      213: -2268172738434871813
+    second: Windows 1_18
+  - first:
+      213: 7117121266701615545
+    second: Windows 1_19
+  - first:
+      213: -4054601817154978318
+    second: Windows 1_20
+  - first:
+      213: 2508380373828976055
+    second: Windows 1_21
+  - first:
+      213: 3661629230530104584
+    second: Windows 1_22
+  - first:
+      213: 8835940508131055944
+    second: Windows 1_23
+  - first:
+      213: 6512945379549194034
+    second: Windows 1_24
+  - first:
+      213: -8072878270925377535
+    second: Windows 1_25
+  - first:
+      213: -6812933533299490020
+    second: Windows 1_26
+  - first:
+      213: 910029598422593132
+    second: Windows 1_27
+  - first:
+      213: 493759181543020612
+    second: Windows 1_28
+  - first:
+      213: -4452612905177295262
+    second: Windows 1_29
+  - first:
+      213: -1016988892686394039
+    second: Windows 1_30
+  - first:
+      213: -4254145044147607616
+    second: Windows 1_31
+  - first:
+      213: -1180267932561066989
+    second: Windows 1_32
+  - first:
+      213: 6209528342690420327
+    second: Windows 1_33
+  - first:
+      213: 2858227343760876374
+    second: Windows 1_34
+  - first:
+      213: -4999278714950644584
+    second: Windows 1_35
+  - first:
+      213: -427109553361908759
+    second: Windows 1_36
+  - first:
+      213: -389212975853602507
+    second: Windows 1_37
+  - first:
+      213: -2473338012528517187
+    second: Windows 1_38
+  - first:
+      213: -4764396827900244577
+    second: Windows 1_39
+  - first:
+      213: -4459345524713141712
+    second: Windows 1_40
+  - first:
+      213: -4807057954276366548
+    second: Windows 1_41
+  - first:
+      213: 929032878385842982
+    second: Windows 1_42
+  - first:
+      213: -7948014554789478464
+    second: Windows 1_43
+  - first:
+      213: 2878534588493023169
+    second: Windows 1_44
+  - first:
+      213: -5234432140830865990
+    second: Windows 1_45
+  - first:
+      213: 6136579507298987562
+    second: Windows 1_46
+  - first:
+      213: 3496519207241879086
+    second: Windows 1_47
+  - first:
+      213: 3217702343953776676
+    second: Windows 1_48
+  - first:
+      213: -4215197263404251336
+    second: Windows 1_49
+  - first:
+      213: -3300796291162950356
+    second: Windows 1_50
+  - first:
+      213: 4549132940632592810
+    second: Windows 1_51
+  - first:
+      213: -4122437006738528861
+    second: Windows 1_52
+  - first:
+      213: 5073917576208133915
+    second: Windows 1_53
+  - first:
+      213: -3606543555401473018
+    second: Windows 1_54
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Windows 1_42
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 553
+        width: 511
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06949caf1de399f4f8b1e76ab9691c8f
+      internalID: 929032878385842982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Windows 1_45
+      rect:
+        serializedVersion: 2
+        x: 3034
+        y: 273
+        width: 511
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2050c5c9165a040b381f255c582d98
+      internalID: -5234432140830865990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

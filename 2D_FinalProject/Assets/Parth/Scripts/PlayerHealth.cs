@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
 	Text healthText;
 
 	[SerializeField]
-	//GameObject DeathUI;
+	GameObject DeathUI;
 
 	Animator myAnimator;
 
@@ -46,9 +46,10 @@ public class PlayerHealth : MonoBehaviour
 		if (curHealth <= 0) 
 		{
 			myAnimator.SetBool ("IsDead", true);
-            Destroy(gameObject, 3f);
+
+            Destroy(gameObject, 1f);
 		
-			//DeathUI.gameObject.SetActive (true);
+			DeathUI.gameObject.SetActive (true);
 		}
 
 	
