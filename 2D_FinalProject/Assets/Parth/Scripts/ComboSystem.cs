@@ -8,12 +8,19 @@ public class ComboSystem : MonoBehaviour
     public int noOfClicks = 0;
     float lastClickedTime = 0;
     public float maxComboDelay;
+
+    private mydamage damagescript;
+
+    public GameObject hitbox;
     
     // Start is called before the first frame update
     void Start()
     {
         anime = gameObject.GetComponent<Animator>();
+
+        damagescript = hitbox.GetComponent<mydamage>();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -69,6 +76,11 @@ public class ComboSystem : MonoBehaviour
         anime.SetBool("Attack3", false);
 
         noOfClicks = 0;
+    }
+
+    public void ChangeDmg(int newDmg)
+    {
+        damagescript.realDamage = newDmg;
     }
 
 }

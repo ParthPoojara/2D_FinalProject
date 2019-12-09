@@ -8495,6 +8495,7 @@ GameObject:
   - component: {fileID: 1099320079}
   - component: {fileID: 1099320078}
   - component: {fileID: 1099320082}
+  - component: {fileID: 1099320083}
   m_Layer: 0
   m_Name: EnemyAI
   m_TagString: Enemy
@@ -8509,7 +8510,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099320077}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -8531,7 +8532,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15921402, y: 0.44815806}
+  m_Offset: {x: -0.101328135, y: 0.02848649}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8542,7 +8543,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.1691332, y: 1.0504141}
+  m_Size: {x: 0.68675184, y: 1.8897572}
   m_EdgeRadius: 0
 --- !u!212 &1099320080
 SpriteRenderer:
@@ -8601,8 +8602,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099320077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.09, y: -1.35, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.59, y: -1.47, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -8621,6 +8622,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   hitbox: {fileID: 1376202326}
+  whitemat: {fileID: 2100000, guid: bcd78ab9fd831784ea287a904682aef2, type: 2}
+  normalmat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  parts:
+  - {fileID: 1099320080}
+--- !u!95 &1099320083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099320077}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efac3a172d8192944bbb30b1ea8850cf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1099808044
 GameObject:
   m_ObjectHideFlags: 0
@@ -10782,6 +10806,7 @@ MonoBehaviour:
   anime: {fileID: 0}
   noOfClicks: 0
   maxComboDelay: 1.2
+  hitbox: {fileID: 1376202326}
 --- !u!1 &1483162306
 GameObject:
   m_ObjectHideFlags: 0
