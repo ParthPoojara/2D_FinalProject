@@ -37,9 +37,16 @@ public class PlayerHealth : MonoBehaviour
 			healthBar.value -= 1.00f;
 			curHealth = healthBar.value;
 		}
-	}
+        else
+        if(col.gameObject.tag == "Respawn")
+        {
+            healthBar.value -= 100f;
+            curHealth = healthBar.value;
+        }
 
-	void Update()
+    }
+
+    void Update()
 	{
 		healthText.text = curHealth.ToString () + " %";
 
