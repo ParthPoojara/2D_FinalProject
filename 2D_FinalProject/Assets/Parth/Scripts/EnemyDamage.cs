@@ -20,6 +20,7 @@ public class EnemyDamage : MonoBehaviour
         animer = gameObject.GetComponent<Animator>();
     }
 
+  
     void OnTriggerEnter2D(Collider2D target)
     {
         if(target.tag == hitbox.tag)
@@ -28,7 +29,7 @@ public class EnemyDamage : MonoBehaviour
             animer.SetTrigger("gethit");
         }
 
-        if(health < 0)
+        if(health <= 0)
         {
            Destroy(gameObject);
         }

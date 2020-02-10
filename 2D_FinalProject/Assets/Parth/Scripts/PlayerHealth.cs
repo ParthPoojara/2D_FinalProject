@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
 	float maxHealth = 100;
 	float curHealth;
-
+		
 
 	// Use this for initialization
 	void Start () 
@@ -43,7 +43,7 @@ public class PlayerHealth : MonoBehaviour
             healthBar.value -= 100f;
             curHealth = healthBar.value;
         }
-
+			
     }
 
     void Update()
