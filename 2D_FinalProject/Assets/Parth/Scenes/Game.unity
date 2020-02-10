@@ -1696,24 +1696,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1460588090}
   isFlipped: 0
---- !u!114 &466293208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466293199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 344523d5f9421b8479de7ee742b7b448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 20
-  enragedAttackDamage: 40
-  attackOffset: {x: 0, y: 0, z: 0}
-  attackRange: 1
-  attackMask:
-    m_Bits: 0
 --- !u!1 &483685675
 GameObject:
   m_ObjectHideFlags: 3
@@ -4713,6 +4695,12 @@ Transform:
   m_Father: {fileID: 1791975068}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1376202326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8697869268207155111, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 8697869269515442673}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1380135637
 GameObject:
   m_ObjectHideFlags: 0
@@ -8109,11 +8097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: hitbox
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1376202326}
     - target: {fileID: 6030600968951580539, guid: aaae26471dcf15541b2be5a5a78db21e,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6030600968951580518, guid: aaae26471dcf15541b2be5a5a78db21e,
         type: 3}
@@ -8291,7 +8279,7 @@ PrefabInstance:
     - target: {fileID: 8697869268291671987, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc, type: 3}
