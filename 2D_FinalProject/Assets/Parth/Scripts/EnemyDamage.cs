@@ -23,11 +23,14 @@ public class EnemyDamage : MonoBehaviour
   
     void OnTriggerEnter2D(Collider2D target)
     {
-        if(target.tag == hitbox.tag)
+        if (target.tag == hitbox.tag)
         {
             health -= damagescript.realDamage;
             animer.SetTrigger("gethit");
+            PlayerHealth.animationcontrol = true;
         }
+        else
+            PlayerHealth.animationcontrol = false;
 
         if(health <= 0)
         {

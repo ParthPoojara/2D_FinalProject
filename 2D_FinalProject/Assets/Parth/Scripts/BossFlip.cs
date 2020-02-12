@@ -12,8 +12,11 @@ public class BossFlip : MonoBehaviour
 	{
 		Vector3 flipped = transform.localScale;
 		flipped.z *= -1f;
-
-		if ( transform.position.x > player.position.x && isFlipped)
+		if (PlayerHealth.isdead)
+		{
+			return;
+		}
+		else if ( transform.position.x > player.position.x && isFlipped)
 		{
 			transform.localScale = flipped;
 			transform.Rotate(0f, 180f, 0f);
