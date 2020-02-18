@@ -20,15 +20,19 @@ public class EnemyDamage : MonoBehaviour
         animer = gameObject.GetComponent<Animator>();
     }
 
+  
     void OnTriggerEnter2D(Collider2D target)
     {
-        if(target.tag == hitbox.tag)
+        if (target.tag == hitbox.tag)
         {
             health -= damagescript.realDamage;
             animer.SetTrigger("gethit");
+            PlayerHealth.animationcontrol = true;
         }
+        else
+            PlayerHealth.animationcontrol = false;
 
-        if(health < 0)
+        if(health <= 0)
         {
            Destroy(gameObject);
         }
