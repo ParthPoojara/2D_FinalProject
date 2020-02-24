@@ -265,6 +265,10 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   healthText: {fileID: 0}
   DeathUI: {fileID: 0}
+  closestenemy: {fileID: 0}
+  allenemies: []
+  enemyanimator: []
+  closestanim: {fileID: 0}
 --- !u!114 &8697869268291672013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b2737b1676bf91408928ee06115a53a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
+  m_JumpForce: 800
   m_CrouchSpeed: 0.4
   m_MovementSmoothing: 0.05
   m_AirControl: 1

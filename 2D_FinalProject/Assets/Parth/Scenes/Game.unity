@@ -1077,6 +1077,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6030600968951580539, guid: aaae26471dcf15541b2be5a5a78db21e,
+        type: 3}
+      propertyPath: health
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6030600968951580518, guid: aaae26471dcf15541b2be5a5a78db21e,
         type: 3}
       propertyPath: m_Offset.x
@@ -7084,6 +7089,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030600968951580539, guid: aaae26471dcf15541b2be5a5a78db21e,
+        type: 3}
+      propertyPath: health
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6030600968951580518, guid: aaae26471dcf15541b2be5a5a78db21e,
         type: 3}
