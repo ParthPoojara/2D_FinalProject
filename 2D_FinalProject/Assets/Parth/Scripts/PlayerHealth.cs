@@ -20,11 +20,6 @@ public class PlayerHealth : MonoBehaviour
 	float curHealth;
 	float cooldown = 0;
 
-	public Transform closestenemy;
-	public List <Transform> allenemies;
-	int aitracker;
-	public List<Animator> enemyanimator;
-
 	public static bool isdead;
 
 	// Use this for initialization
@@ -36,13 +31,7 @@ public class PlayerHealth : MonoBehaviour
 		healthBar.value = maxHealth;
 		curHealth = healthBar.value;
 
-		foreach (GameObject go in GameObject.FindGameObjectsWithTag("Enemy"))
-		{
-			allenemies.Add(go.GetComponent<Transform>());
-			enemyanimator.Add(go.GetComponent<Animator>());
-		}
-
-
+		
 	}
 
 	void OnTriggerStay2D(Collider2D col)
@@ -81,50 +70,9 @@ public class PlayerHealth : MonoBehaviour
 
 		}
 
-		getclosestenemy(allenemies.ToArray());
-		if (animationcontrol)
-		{
-			cooldown += Time.deltaTime;
-		}
-
 		healthBar.value = curHealth;
 
 	}
-
-	
-	public Animator closestanim;
-	public static bool animationcontrol = false;
-	Transform getclosestenemy(Transform[]enemies)
-	{
-		closestenemy = null;
-
-		float mindist = Mathf.Infinity;
-		Vector2 currentpos = this.gameObject.transform.position;
 		
-		foreach (Transform t in enemies)
-		{
-			
-			float distance = Vector2.Distance(t.position, currentpos);
-			if(distance < mindist)
-			{
-				closestanim = t.gameObject.GetComponent<Animator>();
-
-				closestanim.SetBool("abouttohit", animationcontrol);
-				if (animationcontrol)
-				{
-					
-					if(cooldown >= 2f)
-					{
-						cooldown = 0;
-						curHealth -= 20;
-					}
-				}
-				closestenemy = t;
-				mindist = distance;
-			}
-		}
-		return closestenemy;
-	}
-
 		
 }

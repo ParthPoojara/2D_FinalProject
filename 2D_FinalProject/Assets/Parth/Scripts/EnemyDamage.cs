@@ -27,10 +27,9 @@ public class EnemyDamage : MonoBehaviour
         {
             health -= damagescript.realDamage;
             animer.SetTrigger("gethit");
-            PlayerHealth.animationcontrol = true;
+            
         }
-        else
-            PlayerHealth.animationcontrol = false;
+       
 
         if(health <= 0)
         {
