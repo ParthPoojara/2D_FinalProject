@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:2D_FinalProject/Assets/Liam/Prefab/PatrolPoint1.prefab.meta
 guid: 27202680b92ff7b489af964e5f2f63b0
 PrefabImporter:
+=======
+guid: 660dc86db976a3d4caeec129a8238c44
+DefaultImporter:
+>>>>>>> 18435f3ff686889b8f3a95865389ad17db763391:2D_FinalProject/Assets/Chris/Scenes/Game 1.unity.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
