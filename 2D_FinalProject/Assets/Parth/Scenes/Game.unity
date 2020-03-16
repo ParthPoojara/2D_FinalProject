@@ -6983,6 +6983,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 6189108318695203976, guid: 9a49b7c3f7e65464d8250fd0b3339304,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189108318695203976, guid: 9a49b7c3f7e65464d8250fd0b3339304,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 2951011922377050534, guid: 9a49b7c3f7e65464d8250fd0b3339304,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7800,6 +7810,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697869268291672008, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 776953673
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697869268291672008, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a6b4fdf0febbd84cb1ebef531f0a3bc, type: 3}

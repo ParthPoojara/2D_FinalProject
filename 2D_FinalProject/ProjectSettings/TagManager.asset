@@ -19,7 +19,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - diff
   - 
   - 
   - 
@@ -51,4 +51,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 776953673
+    locked: 0
+  - name: dialog
+    uniqueID: 4026704549
     locked: 0
