@@ -12,6 +12,7 @@ public class EnemyPatrol : MonoBehaviour
     void Start()
     {
         speed = 1f;
+        MoveRight = true;
     }
 
     // Update is called once per frame
@@ -35,6 +36,7 @@ public class EnemyPatrol : MonoBehaviour
             if (MoveRight)
             {
                 MoveRight = false;
+
             }
             else
             {
