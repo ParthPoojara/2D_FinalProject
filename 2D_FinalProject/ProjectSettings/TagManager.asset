@@ -9,6 +9,9 @@ TagManager:
   - Saw
   - hitbox
   - Patrol
+  - Laser
+  - background
+  - Coins
   layers:
   - Default
   - TransparentFX
@@ -20,9 +23,9 @@ TagManager:
   - 
   - Player
   - diff
-  - 
-  - 
-  - 
+  - Backhround Image
+  - coins
+  - scene
   - 
   - 
   - 
@@ -54,4 +57,7 @@ TagManager:
     locked: 0
   - name: dialog
     uniqueID: 4026704549
+    locked: 0
+  - name: background
+    uniqueID: 4150109107
     locked: 0
