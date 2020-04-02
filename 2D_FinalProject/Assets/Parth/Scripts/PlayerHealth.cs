@@ -16,8 +16,8 @@ public class PlayerHealth : MonoBehaviour
 
 	Animator myAnimator;
 
-	float maxHealth = 100;
-	float curHealth;
+	public float maxHealth = 100;
+	public float curHealth;
 	float cooldown = 0;
 
 	public static bool isdead;
@@ -47,12 +47,12 @@ public class PlayerHealth : MonoBehaviour
             healthBar.value -= 100f;
             curHealth = healthBar.value;
         }
-		else
-	    if(col.gameObject.tag == "Health")
-		{
-			healthBar.value += 50f;
-			curHealth = healthBar.value;
-		}
+		//else
+	   // if(col.gameObject.tag == "Health")
+	  //{
+	  //	healthBar.value += 50f;
+	  //	curHealth = healthBar.value;
+	  //}
 		
 				
     }

@@ -13,6 +13,7 @@ TagManager:
   - background
   - Coins
   - Health
+  - HealthTag
   layers:
   - Default
   - TransparentFX
