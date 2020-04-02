@@ -47,6 +47,13 @@ public class PlayerHealth : MonoBehaviour
             healthBar.value -= 100f;
             curHealth = healthBar.value;
         }
+		else
+	    if(col.gameObject.tag == "Health")
+		{
+			healthBar.value += 50f;
+			curHealth = healthBar.value;
+		}
+		
 				
     }
 

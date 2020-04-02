@@ -12,6 +12,7 @@ TagManager:
   - Laser
   - background
   - Coins
+  - Health
   layers:
   - Default
   - TransparentFX
