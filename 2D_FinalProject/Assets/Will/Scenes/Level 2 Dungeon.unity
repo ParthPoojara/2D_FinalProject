@@ -85597,12 +85597,12 @@ PrefabInstance:
     - target: {fileID: 3037068878790500088, guid: 526dd330e8888d44d970fc9787558b90,
         type: 3}
       propertyPath: orthographic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3037068878790500088, guid: 526dd330e8888d44d970fc9787558b90,
         type: 3}
       propertyPath: orthographic size
-      value: 5
+      value: 8.25
       objectReference: {fileID: 0}
     - target: {fileID: 3037068878790500088, guid: 526dd330e8888d44d970fc9787558b90,
         type: 3}
