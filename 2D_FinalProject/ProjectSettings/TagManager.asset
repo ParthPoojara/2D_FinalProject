@@ -14,6 +14,7 @@ TagManager:
   - Coins
   - Health
   - HealthTag
+  - enemyPlayer
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Backhround Image
   - coins
   - scene
-  - 
+  - enemyPlayer
   - 
   - 
   - 
