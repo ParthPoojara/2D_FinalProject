@@ -1927,12 +1927,12 @@ PrefabInstance:
     - target: {fileID: 4885721893425451727, guid: 27202680b92ff7b489af964e5f2f63b0,
         type: 3}
       propertyPath: m_Name
-      value: PatrolPoint1 (1)
+      value: LeftPatrol
       objectReference: {fileID: 0}
     - target: {fileID: 1673082314796278074, guid: 27202680b92ff7b489af964e5f2f63b0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.22
+      value: -10.65
       objectReference: {fileID: 0}
     - target: {fileID: 1673082314796278074, guid: 27202680b92ff7b489af964e5f2f63b0,
         type: 3}
@@ -2140,6 +2140,12 @@ Transform:
   m_Father: {fileID: 1791975068}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &657524096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1673082314796278074, guid: 27202680b92ff7b489af964e5f2f63b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8532005372225542860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &752265676
 GameObject:
   m_ObjectHideFlags: 0
@@ -2409,6 +2415,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7002e4b436e9ae44bd24a6d704e78d0, type: 3}
+--- !u!4 &864411892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1673082314796278074, guid: 27202680b92ff7b489af964e5f2f63b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 608129026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &879233317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3942,20 +3954,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1268185462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268185459}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 519c58af514f6e741bd98e6ef3fb7c19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  MoveRight: 0
 --- !u!114 &1268185464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3976,6 +3974,8 @@ MonoBehaviour:
   attackDistance: 2
   moveSpeed: 2
   timer: 3
+  LeftPatrol: {fileID: 864411892}
+  RightPatrol: {fileID: 657524096}
 --- !u!1 &1334005987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4001,8 +4001,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334005987}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.11, y: -0.21, z: 0}
-  m_LocalScale: {x: 3.8, y: 1.1375, z: 1}
+  m_LocalPosition: {x: 0.47, y: -0.21, z: 0}
+  m_LocalScale: {x: 5.0350003, y: 1.1375, z: 1}
   m_Children: []
   m_Father: {fileID: 302957036736161359}
   m_RootOrder: 3
@@ -6415,6 +6415,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 3037068877358161989, guid: 526dd330e8888d44d970fc9787558b90,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 526dd330e8888d44d970fc9787558b90, type: 3}
 --- !u!1 &2044794238
@@ -7808,7 +7813,7 @@ PrefabInstance:
     - target: {fileID: 4885721893425451727, guid: 27202680b92ff7b489af964e5f2f63b0,
         type: 3}
       propertyPath: m_Name
-      value: PatrolPoint1
+      value: RightPatrol
       objectReference: {fileID: 0}
     - target: {fileID: 1673082314796278074, guid: 27202680b92ff7b489af964e5f2f63b0,
         type: 3}
