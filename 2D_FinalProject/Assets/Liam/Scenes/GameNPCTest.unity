@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 474748100c6c472448a2a9206f50babb, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b03f0d03a46603e43a88aed71c11404d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2502,7 +2502,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942998241}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1821a25cfc2e004592aca8706559e6a, type: 3}
   m_Name: 
@@ -5992,6 +5992,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3037068878790500090, guid: 526dd330e8888d44d970fc9787558b90,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 526dd330e8888d44d970fc9787558b90, type: 3}
 --- !u!1 &2044794238
@@ -7198,6 +7203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: object_forest_c2_08
       objectReference: {fileID: 0}
+    - target: {fileID: 7348405601921416950, guid: f17b5172638cd5c4089efb07b90932fa,
+        type: 3}
+      propertyPath: m_TagString
+      value: grounded
+      objectReference: {fileID: 0}
     - target: {fileID: 7348405601921416953, guid: f17b5172638cd5c4089efb07b90932fa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7516,6 +7526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyNPC
       objectReference: {fileID: 0}
+    - target: {fileID: 8973629864334799344, guid: 94d62680fdea20f448a21bacd4186e8a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemydamage
+      objectReference: {fileID: 0}
     - target: {fileID: 5785142781937786105, guid: 94d62680fdea20f448a21bacd4186e8a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7581,10 +7596,5 @@ PrefabInstance:
       propertyPath: RightPatrol
       value: 
       objectReference: {fileID: 7012172988251503606}
-    - target: {fileID: 8973629864334799344, guid: 94d62680fdea20f448a21bacd4186e8a,
-        type: 3}
-      propertyPath: m_TagString
-      value: Enemydamage
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94d62680fdea20f448a21bacd4186e8a, type: 3}

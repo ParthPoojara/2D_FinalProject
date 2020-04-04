@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
 
 	void OnTriggerStay2D(Collider2D col)
 	{
-		if (col.gameObject.tag == "Saw") 
+        if (col.gameObject.tag == "Saw") 
 		{
 			healthBar.value -= 1.00f;
 			curHealth = healthBar.value;
