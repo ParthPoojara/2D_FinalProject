@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4245450339310200483
+--- !u!1 &7245803604271262055
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7931040403799135574}
-  - component: {fileID: 7764008920322630618}
-  m_Layer: 0
+  - component: {fileID: 7028835900983851910}
+  - component: {fileID: 154542979461654733}
+  m_Layer: 13
   m_Name: LeftPatrol
   m_TagString: Patrol
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7931040403799135574
+--- !u!4 &7028835900983851910
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4245450339310200483}
+  m_GameObject: {fileID: 7245803604271262055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.65, y: -0.81, z: -6.7472467}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,13 +31,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &7764008920322630618
+--- !u!61 &154542979461654733
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4245450339310200483}
+  m_GameObject: {fileID: 7245803604271262055}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
