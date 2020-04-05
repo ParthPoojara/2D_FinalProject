@@ -57,8 +57,19 @@ public class PlayerHealth : MonoBehaviour
 				
     }
 
+	void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == "SwordEnemy")
+		{
+			healthBar.value -= 3.00f;
+			curHealth = healthBar.value;
+		}
+	}
 
-    void Update()
+
+
+
+	void Update()
 	{
 		//new Vector2 distance = this.gameObject.transform.position - 
 

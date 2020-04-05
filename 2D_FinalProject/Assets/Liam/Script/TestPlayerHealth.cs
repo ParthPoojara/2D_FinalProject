@@ -47,12 +47,12 @@ public class TestPlayerHealth : MonoBehaviour
             healthBar.value -= 100f;
             curHealth = healthBar.value;
         }
-        //else
-        // if(col.gameObject.tag == "Health")
-        //{
-        //	healthBar.value += 50f;
-        //	curHealth = healthBar.value;
-        //}
+     //   else
+     //  if(col.gameObject.tag == "Health")
+     //  {
+     //  	healthBar.value += 50f;
+     //  	curHealth = healthBar.value;
+     //  }
 
 
     }
@@ -62,7 +62,7 @@ public class TestPlayerHealth : MonoBehaviour
     {
         if (collision.gameObject.tag == "SwordEnemy")
         {
-            healthBar.value -= 1.00f;
+            healthBar.value -= 3.00f;
             curHealth = healthBar.value;
         }
     }
