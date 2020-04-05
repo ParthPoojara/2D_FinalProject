@@ -78,17 +78,23 @@ public class EnemyBehaviour : MonoBehaviour
         }
     }
 
-    // Once the Gameobject (Player) enters the trigger area
-    void OnTriggerEnter(Collider trig) 
+    void OnTriggerEnter2D(Collider2D trig)
     {
         // If the object entering the trigger area is tagged player in the inspector then the condition is activated
-        if (trig.gameObject.tag == "Player") 
+        if (trig.gameObject.tag == "Player")
         {
+            Debug.Log("Player is in trigger");
             target = trig.transform; // The enemy will target the gameObject in the trigger area
             inRange = true; // Indicates the player is in range
             Flip(); // Calls the flip function
         }
     }
+
+    // Once the Gameobject (Player) enters the trigger area
+   /* void OnTriggerEnter2D(Collider trig) 
+    {
+     
+    }*/
 
     // Creating logic for the enemy
     void EnemyLogic()
