@@ -16,6 +16,7 @@ TagManager:
   - HealthTag
   - enemyPlayer
   - Enemydamage
+  - SwordEnemy
   layers:
   - Default
   - TransparentFX
