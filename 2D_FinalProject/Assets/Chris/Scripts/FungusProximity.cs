@@ -10,6 +10,7 @@ public class FungusProximity: MonoBehaviour
     public float fl_minTriggerDistance;
 
     public string st_fungusMessage = "TestMessage";
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class FungusProximity: MonoBehaviour
     void Update()
     {
         float currentDistance = Vector3.Distance(this.transform.position, GO_thePlayer.transform.position);
-
+     
         if (currentDistance <= fl_minTriggerDistance)
         {
 
