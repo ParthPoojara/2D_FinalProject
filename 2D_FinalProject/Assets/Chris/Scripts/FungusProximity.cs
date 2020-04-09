@@ -20,7 +20,7 @@ public class FungusProximity: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float currentDistance = Vector3.Distance(this.transform.position, GO_thePlayer.transform.position);
+        float currentDistance = Vector2.Distance(this.transform.position, GO_thePlayer.transform.position);
      
         if (currentDistance <= fl_minTriggerDistance)
         {
