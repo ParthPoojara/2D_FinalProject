@@ -13,6 +13,8 @@ public class EnemyDamage : MonoBehaviour
     public Material normalmat;
     public SpriteRenderer[] parts;
 
+    public GameObject lootdrop;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +36,7 @@ public class EnemyDamage : MonoBehaviour
         if(health <= 0)
         {
            Destroy(gameObject);
+            Instantiate(lootdrop, transform.position, Quaternion.identity);
         }
 
     }
