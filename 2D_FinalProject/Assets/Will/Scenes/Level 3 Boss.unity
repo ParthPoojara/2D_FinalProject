@@ -16594,6 +16594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 7394458091279957177, guid: 64ca6afcb78734a4e8f9400b3499a1ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1985626709969670551, guid: 64ca6afcb78734a4e8f9400b3499a1ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16722,6 +16727,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64ca6afcb78734a4e8f9400b3499a1ba, type: 3}
+--- !u!1 &686144689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7394458091279957177, guid: 64ca6afcb78734a4e8f9400b3499a1ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 686144688}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &688032184
 GameObject:
   m_ObjectHideFlags: 0
@@ -21930,8 +21941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 498
-    y: 94
+    x: 496.6842
+    y: 92.68421
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -21957,7 +21968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 118.825096, y: -33.42879}
+  scrollPos: {x: 63.561974, y: -15.00775}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -21969,9 +21980,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 909613228}
+  - {fileID: 909613206}
   selectedCommands:
-  - {fileID: 909613223}
+  - {fileID: 909613220}
   variables: []
   description: 
   stepPause: 0
@@ -22316,33 +22327,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 909613204}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3e86f556e074b84af1cc7eb8f8e5e7, type: 3}
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  _sourceObject:
+  _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  _parentTransform:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  _spawnAtSelf:
+    gameObjectVal: {fileID: 686144689}
+  activeState:
     booleanRef: {fileID: 0}
-    booleanVal: 0
-  _spawnPosition:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
-  _spawnRotation:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: 0, z: 0}
-  _newlySpawnedObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  sourceObjectOLD: {fileID: 0}
-  parentTransformOLD: {fileID: 0}
-  spawnPositionOLD: {x: 0, y: 0, z: 0}
-  spawnRotationOLD: {x: 0, y: 0, z: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &909613223
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -39416,7 +39412,7 @@ PrefabInstance:
     - target: {fileID: 5548660008211788301, guid: 20a97f7f213d4374892265b1e365cbdb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5548660008211788338, guid: 20a97f7f213d4374892265b1e365cbdb,
         type: 3}
