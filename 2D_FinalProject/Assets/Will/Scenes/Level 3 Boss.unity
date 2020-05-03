@@ -9087,6 +9087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cult Leader 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1396371098869845456, guid: a759fb26023a7974e8120cf6118dbf37,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7958089865298862334, guid: a759fb26023a7974e8120cf6118dbf37,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21899,6 +21904,10 @@ GameObject:
   - component: {fileID: 909613224}
   - component: {fileID: 909613223}
   - component: {fileID: 909613222}
+  - component: {fileID: 909613232}
+  - component: {fileID: 909613231}
+  - component: {fileID: 909613230}
+  - component: {fileID: 909613229}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -21980,9 +21989,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 909613206}
-  selectedCommands:
-  - {fileID: 909613220}
+  - {fileID: 909613214}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -22156,6 +22164,8 @@ MonoBehaviour:
   - {fileID: 909613212}
   - {fileID: 909613211}
   - {fileID: 909613209}
+  - {fileID: 909613232}
+  - {fileID: 909613231}
 --- !u!114 &909613215
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22226,6 +22236,8 @@ MonoBehaviour:
   - {fileID: 909613215}
   - {fileID: 909613210}
   - {fileID: 909613205}
+  - {fileID: 909613230}
+  - {fileID: 909613229}
 --- !u!114 &909613218
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22481,6 +22493,90 @@ MonoBehaviour:
   - {fileID: 909613224}
   - {fileID: 909613223}
   - {fileID: 909613222}
+--- !u!114 &909613229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909613204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1360562769}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909613230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909613204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 365702269}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909613231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909613204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1360562769}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &909613232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909613204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 365702269}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &912324174
 GameObject:
   m_ObjectHideFlags: 0
@@ -33303,12 +33399,12 @@ GameObject:
   - component: {fileID: 1360562771}
   - component: {fileID: 1360562770}
   m_Layer: 0
-  m_Name: NPC Fatih
+  m_Name: NPC Faith
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1360562770
 SpriteRenderer:
   m_ObjectHideFlags: 0
