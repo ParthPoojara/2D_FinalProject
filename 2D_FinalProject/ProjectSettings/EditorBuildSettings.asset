@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Liam/Scenes/GameNPCTest.unity
     guid: f8497051cdd7a7b4883ee0ffd852fee2
+  - enabled: 1
+    path: Assets/Will/Scenes/TutorialLevel.unity
+    guid: d03b150daa44e5f428f3171964e13a70
   m_configObjects: {}
