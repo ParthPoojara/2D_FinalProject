@@ -48,7 +48,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1247888977727998, guid: b376fcef73a1f7c4dabdb17903073600, type: 3}
       propertyPath: m_Name
-      value: Boss_Key
+      value: Boss_Key Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1247888977727998, guid: b376fcef73a1f7c4dabdb17903073600, type: 3}
       propertyPath: m_Layer
