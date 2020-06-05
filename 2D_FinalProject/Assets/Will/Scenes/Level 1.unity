@@ -51416,7 +51416,7 @@ PrefabInstance:
     - target: {fileID: 5548660008211788301, guid: 20a97f7f213d4374892265b1e365cbdb,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5548660008211788338, guid: 20a97f7f213d4374892265b1e365cbdb,
         type: 3}
@@ -51851,6 +51851,8 @@ GameObject:
   - component: {fileID: 2000005409}
   - component: {fileID: 2000005411}
   - component: {fileID: 2000005410}
+  - component: {fileID: 2000005413}
+  - component: {fileID: 2000005412}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -51953,9 +51955,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2000005399}
+  - {fileID: 2000005384}
   selectedCommands:
-  - {fileID: 2000005410}
+  - {fileID: 2000005412}
   variables: []
   description: 
   stepPause: 0
@@ -52250,6 +52252,7 @@ MonoBehaviour:
   - {fileID: 2000005385}
   - {fileID: 2000005386}
   - {fileID: 2000005387}
+  - {fileID: 2000005412}
 --- !u!114 &2000005385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -52466,6 +52469,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2000005391}
   - {fileID: 2000005394}
+  - {fileID: 2000005413}
 --- !u!114 &2000005393
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -52507,7 +52511,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You'll know soon enough...
   description: 
-  character: {fileID: 273001576}
+  character: {fileID: 82243412}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -52957,6 +52961,60 @@ MonoBehaviour:
   storyText: Your appearance is intriguing...
   description: 
   character: {fileID: 2121565416}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2000005412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000005369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 39
+  indentLevel: 0
+  storyText: Seek the key somewhere below... You'll find what you are looking for
+  description: 
+  character: {fileID: 82243412}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2000005413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000005369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 38
+  indentLevel: 0
+  storyText: Seek the key somewhere below... You'll find what you are looking for
+  description: 
+  character: {fileID: 82243412}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
