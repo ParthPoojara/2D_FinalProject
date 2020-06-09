@@ -52,7 +52,9 @@ public class EnemyBehaviour : MonoBehaviour
         if (inRange)
         {
             // Checks for a hit with a raycast and stores the information
-            hit = Physics2D.Raycast(rayCast.position, transform.right, rayCastLength, raycastMask); // right
+            hit = Physics2D.Raycast(rayCast.position, -transform.right, rayCastLength, raycastMask); // right
+
+            
             // Test the Raycast is working correctly and allows it to be seen
             RaycastDebugger();
         }
@@ -178,13 +180,13 @@ public class EnemyBehaviour : MonoBehaviour
         if (distance > attackDistance)
         {
             // Creates a ray that is visible for us to see in a certain colour
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.red); // right
+            Debug.DrawRay(rayCast.position, -transform.right * rayCastLength, Color.red); // right
         }
         // If the attack distance is greater than the distance between the enemy and player, the condition is triggered
         else if (attackDistance > distance)
         {
             // Creates a ray that is visible for us to see in a certain colour
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.magenta); // right
+            Debug.DrawRay(rayCast.position, -transform.right * rayCastLength, Color.magenta); // right
         }
         
     }
