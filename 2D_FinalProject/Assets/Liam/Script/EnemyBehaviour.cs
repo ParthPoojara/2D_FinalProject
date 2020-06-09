@@ -178,13 +178,13 @@ public class EnemyBehaviour : MonoBehaviour
         if (distance > attackDistance)
         {
             // Creates a ray that is visible for us to see in a certain colour
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.red);
+            Debug.DrawRay(rayCast.position, transform.left * rayCastLength, Color.red);
         }
         // If the attack distance is greater than the distance between the enemy and player, the condition is triggered
         else if (attackDistance > distance)
         {
             // Creates a ray that is visible for us to see in a certain colour
-            Debug.DrawRay(rayCast.position, transform.right * rayCastLength, Color.magenta);
+            Debug.DrawRay(rayCast.position, transform.left * rayCastLength, Color.magenta);
         }
         
     }
@@ -223,11 +223,11 @@ public class EnemyBehaviour : MonoBehaviour
         Vector3 rotation = transform.eulerAngles;
         if(transform.position.x > target.position.x)
         {
-            rotation.y = 180f;
+            rotation.y = 0f; //180f;
         }
         else
         {
-            rotation.y = 0f;
+            rotation.y = 180f; //0f;
         }
 
         transform.eulerAngles = rotation;
